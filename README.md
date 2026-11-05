@@ -38,17 +38,18 @@ A full-stack app where mechanics manage clients, cars, and service records. Feat
 ### 🟩 [Multiplayer Wordle Game](https://github.com/cgutwin/CMPT371_A3_PythonSocketWordle)
 `Python` `TCP Sockets`
 
-A networked Wordle with a 6-command enum-based protocol over TCP. Includes client-side guess validation, state rollback when the server rejects a guess, and a colour-coded terminal UI.
+A networked two-player Wordle built with a partner; I built the client. Uses a 6-command enum-based protocol over TCP, with client-side guess validation, state rollback when the server rejects a guess, and a colour-coded terminal UI.
 
-### 💬 [Synchronised Group Chat Server]()
+### ⚡ [Matrix Multiplication Performance Study](https://github.com/Tortz123/Matrix-Multiplication-Performance-Study)
+`C++` `x86-64 Assembly` `AVX`
+
+A hand-written AVX SIMD matrix multiplication running 6× faster than a naive C++ version. Profiling with `perf` showed it cut L1 cache misses from 66% to 24%, and that Eigen's cache-blocked algorithm explained its remaining 4.7× lead. Assembly inspection showed the naive loop only partially vectorized with 128-bit `xmm` registers.
+
+### 💬 Synchronised Group Chat Server
 `C` `TCP Sockets` `Multithreading` `Linux`
 
 A multi-client group chat server using one thread per client, handling up to 100 clients at once. Messages are tagged with the sender's IP and port, and a two-step handshake keeps shutdown synchronised across the server and every client. Passed all 12 server and client test cases from a fuzzing tool.
 
-### ⚡ [Matrix Multiplication Performance Study]()
-`C++` `x86-64 Assembly` `AVX`
-
-A SIMD matrix multiplication built with AVX and Agner Fog's Vector Class Library, running 6× faster than a basic C++ version. Compared against Eigen, which was 4.7× faster still thanks to block-based cache locality. Profiled with `perf` and inspected compiler-generated assembly.
 
 
 
