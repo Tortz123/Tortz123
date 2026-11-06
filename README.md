@@ -3,7 +3,7 @@
 Computing Science student at Simon Fraser University. I like low-level systems programming, networking, and figuring out why code runs as fast (or slow) as it does. I also enjoy full stack development, building everything from the database to the user interface.
 
 - 🌱 Currently learning: system security and privacy, database systems, data structures and algorithms
-- 📫 Reach me: [mat28@sfu.ca](mailto:mat28@sfu.ca) · [LinkedIn](YOUR_LINKEDIN_URL)
+- 📫 Reach me: [mat28@sfu.ca](mailto:mat28@sfu.ca) · [LinkedIn](https://www.linkedin.com/in/matthew-tortolano-aa2387383/)
 
 ## Tech I use
 
